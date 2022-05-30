@@ -6,8 +6,8 @@ def month_to_season(month_number):
         (12, 1, 2): "Winter",
         (3, 4, 5): "Spring",
         (6, 7, 8): "Summer",
-        (9, 10, 11): "Autumn"}
+        (9, 10, 11): "Autumn"
+    }
     for key, value in season_name.items():
         if month_number in key:
-            season = value
-            return season
+            return value
